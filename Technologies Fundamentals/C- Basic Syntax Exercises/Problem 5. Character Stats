@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var name = Console.ReadLine();
+
+            var a = int.Parse(Console.ReadLine());
+            var b = int.Parse(Console.ReadLine());
+            var c = int.Parse(Console.ReadLine());
+            var d = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine("Health: |" +new string('|',a)+new string('.',b-a) + "|");
+            Console.WriteLine("Energy: |" + new string('|', c) + new string('.', d - c) + "|");
+
+        }
+    }
+}
