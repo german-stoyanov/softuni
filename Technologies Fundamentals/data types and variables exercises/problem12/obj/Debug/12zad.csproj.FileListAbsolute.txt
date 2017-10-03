@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\bin\Debug\ConsoleApp12.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\bin\Debug\ConsoleApp12.exe
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\bin\Debug\ConsoleApp12.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\obj\Debug\12zad.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\obj\Debug\ConsoleApp12.exe
+C:\Users\User1\documents\visual studio 2017\Projects\ConsoleApp4\ConsoleApp12\obj\Debug\ConsoleApp12.pdb
