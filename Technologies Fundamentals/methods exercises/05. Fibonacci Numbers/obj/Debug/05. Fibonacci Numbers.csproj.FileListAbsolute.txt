@@ -1,0 +1,5 @@
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

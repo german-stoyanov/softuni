@@ -1,0 +1,5 @@
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\06. Prime Checker\bin\Debug\_06.Prime_Checker.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\06. Prime Checker\bin\Debug\_06.Prime_Checker.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\06. Prime Checker\bin\Debug\_06.Prime_Checker.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\06. Prime Checker\obj\Debug\_06.Prime_Checker.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\06. Prime Checker\obj\Debug\_06.Prime_Checker.pdb

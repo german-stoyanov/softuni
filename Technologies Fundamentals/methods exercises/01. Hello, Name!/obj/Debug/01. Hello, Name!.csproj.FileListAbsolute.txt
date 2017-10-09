@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\obj\Debug\01. Hello, Name!.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\user1\documents\visual studio 2017\Projects\Solution3\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
