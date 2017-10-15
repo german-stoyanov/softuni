@@ -1,0 +1,5 @@
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\3. Search for a Number\bin\Debug\_3.Search_for_a_Number.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\3. Search for a Number\bin\Debug\_3.Search_for_a_Number.exe
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\3. Search for a Number\bin\Debug\_3.Search_for_a_Number.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\3. Search for a Number\obj\Debug\_3.Search_for_a_Number.exe
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\3. Search for a Number\obj\Debug\_3.Search_for_a_Number.pdb

@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\obj\Debug\6. Sum Reversed Numbers.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

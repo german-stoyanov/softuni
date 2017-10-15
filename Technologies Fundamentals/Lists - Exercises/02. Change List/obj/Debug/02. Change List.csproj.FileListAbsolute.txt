@@ -1,0 +1,5 @@
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\02. Change List\bin\Debug\_02.Change_List.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\02. Change List\bin\Debug\_02.Change_List.exe
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\02. Change List\bin\Debug\_02.Change_List.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\02. Change List\obj\Debug\_02.Change_List.exe
+c:\users\user1\documents\visual studio 2017\Projects\Lists - Exercises\02. Change List\obj\Debug\_02.Change_List.pdb

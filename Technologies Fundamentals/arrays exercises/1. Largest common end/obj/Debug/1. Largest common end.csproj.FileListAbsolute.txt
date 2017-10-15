@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\bin\Debug\_1.Largest_common_end.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\bin\Debug\_1.Largest_common_end.exe
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\bin\Debug\_1.Largest_common_end.pdb
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\obj\Debug\1. Largest common end.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\obj\Debug\_1.Largest_common_end.exe
+c:\users\user1\documents\visual studio 2017\Projects\arrays exercises\1. Largest common end\obj\Debug\_1.Largest_common_end.pdb

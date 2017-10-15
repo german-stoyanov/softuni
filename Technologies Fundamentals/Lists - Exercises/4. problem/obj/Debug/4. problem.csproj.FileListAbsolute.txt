@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\bin\Debug\_4.problem.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\bin\Debug\_4.problem.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\bin\Debug\_4.problem.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\obj\Debug\4. problem.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\obj\Debug\_4.problem.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Lists - Exercises\4. problem\obj\Debug\_4.problem.pdb
