@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+</head>
+<body>
+    <header>
+       <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+           <div class="container">
+               <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+               </div>
+               <div class="navbar-collapse collapse">
+                   <ul class="nav navbar-nav navbar-right">
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
+                   </ul>
+                </div>
+           </div>
+         </div>
+    </header>
+
+    <main>
+        <div class="container body-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <article>
+                        <header>
+                            <h2>Why Choosing the Right Storage Infrastructure.</h2>
+                        </header>
+                        <p>
+                            1. По-близо до MVVM архитектурата
+                            Angular интегрира оригиналния MVC (model-view-controller) шаблон за да изгради client-side уеб приложения. В същото време обаче Angular не изпълнява MVC по традиционния начин, а работи по-близко до MVVM (Model-View-ViewModel) шаблона, при който:
+                            - Model са данните в приложението, под формата на POJO (Plain old JavaScript Object). Не е необходимо потребителите да наследяват данни от framework класовете, да ги wrap-ват като прокси обекти или да използват специални getter/setter методи;
+                            - ViewModel - ViewModel помага при поддръжката на специфични изгледи. ViewModel е $scope обект, който "живее" в дадено Angular приложение. $scope е прост JavaScript обект, в комплект с прост API, проектиран да засича и предава промени.
+                            - View - това е HTML който съществува, след като Angular е парснал и компилирал HTML за да включи markups и bindings. MVVM е солидна основа за дизайн на приложения. $scope споделя препратки към данни, контролера определя поведението на обектите, а изгледа "view" обхваща... Ами изгледа.
+                        </p>
+                        <small class="author">
+                            German
+                        </small>
+                        <footer>
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-xs" href="viewpost.html">Read more &raquo;</a>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container modal-footer">
+            <p>&copy; 2016 - Software University Foundation</p>
+        </div>
+    </footer>
+</body>
+</html>
