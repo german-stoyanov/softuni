@@ -1,0 +1,16 @@
+.first{
+    padding: 15px;
+    border: 2px dotted blue;
+    border-radius: 10px;
+
+}
+div div{
+    padding: 15px;
+    border: 2px dashed orange;
+    border-radius: 10px;
+}
+div div div{
+    padding: 15px;
+   border: 2px solid green;
+    border-radius: 0px;
+}

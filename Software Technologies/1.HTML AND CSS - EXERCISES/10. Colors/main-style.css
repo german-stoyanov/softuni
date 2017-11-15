@@ -1,0 +1,26 @@
+.Red {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: red;
+    text-align: center;
+}
+.Blue
+{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: blue;
+    text-align: center;
+}
+.Green
+{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: green;
+    text-align: center;
+}
