@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\bin\Debug\Problem 3 – Rage Quit.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\bin\Debug\Problem 3 – Rage Quit.exe
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\bin\Debug\Problem 3 – Rage Quit.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\obj\Debug\Problem 3 – Rage Quit.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\obj\Debug\Problem 3 – Rage Quit.exe
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 3 – Rage Quit\obj\Debug\Problem 3 – Rage Quit.pdb

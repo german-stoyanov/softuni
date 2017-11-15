@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\obj\Debug\Problem 04.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\User1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

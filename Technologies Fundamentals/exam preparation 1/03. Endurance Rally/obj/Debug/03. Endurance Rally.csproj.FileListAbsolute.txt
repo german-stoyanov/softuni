@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\bin\Debug\_03.Endurance_Rally.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\bin\Debug\_03.Endurance_Rally.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\bin\Debug\_03.Endurance_Rally.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\obj\Debug\03. Endurance Rally.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\obj\Debug\_03.Endurance_Rally.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\03. Endurance Rally\obj\Debug\_03.Endurance_Rally.pdb

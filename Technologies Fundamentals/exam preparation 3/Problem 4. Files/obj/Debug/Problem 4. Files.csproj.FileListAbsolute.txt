@@ -1,0 +1,6 @@
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\bin\Debug\Problem_4.Files.exe.config
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\bin\Debug\Problem_4.Files.exe
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\bin\Debug\Problem_4.Files.pdb
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\obj\Debug\Problem 4. Files.csprojResolveAssemblyReference.cache
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\obj\Debug\Problem_4.Files.exe
+C:\Users\User1\documents\visual studio 2017\Projects\exam preparation 3\Problem 4. Files\obj\Debug\Problem_4.Files.pdb

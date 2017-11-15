@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\bin\Debug\Problem 2 – Command Interpreter.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\bin\Debug\Problem 2 – Command Interpreter.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\bin\Debug\Problem 2 – Command Interpreter.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\obj\Debug\Problem 2 – Command Interpreter.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\obj\Debug\Problem 2 – Command Interpreter.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 2 – Command Interpreter\obj\Debug\Problem 2 – Command Interpreter.csprojResolveAssemblyReference.cache

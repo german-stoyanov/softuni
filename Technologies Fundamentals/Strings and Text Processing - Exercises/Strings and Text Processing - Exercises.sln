@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1. Convert from base-10 to base-N", "Problem 1. Convert from base-10 to base-N\Problem 1. Convert from base-10 to base-N.csproj", "{B9DA660A-6DEB-4C6D-A220-74A84A28F1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Convert from base-N to base-10", "Problem 2. Convert from base-N to base-10\Problem 2. Convert from base-N to base-10.csproj", "{A04B823E-B879-4D80-B446-C2C3FFAC3D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Unicode Characters", "Problem 3. Unicode Characters\Problem 3. Unicode Characters.csproj", "{B33664F0-1599-4326-9F0D-77CDEA76776B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Character Multiplier", "Problem 4. Character Multiplier\Problem 4. Character Multiplier.csproj", "{253E89AE-AA35-4967-8E2A-5289A55CDEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Magic exchangeable words", "Problem 5. Magic exchangeable words\Problem 5. Magic exchangeable words.csproj", "{4D0BE532-0CE3-421F-9AC5-908054C89556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. Sum big numbers", "Problem 6. Sum big numbers\Problem 6. Sum big numbers.csproj", "{620EC87B-058C-45C6-92DD-5DE126D9547D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 7. Multiply big number", "Problem 7. Multiply big number\Problem 7. Multiply big number.csproj", "{4AAA574B-C349-4980-97CD-D39577B62DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 8. Letters Change Numbers", "Problem 8. Letters Change Numbers\Problem 8. Letters Change Numbers.csproj", "{6B980EFF-3150-472C-9A95-B116D3657252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 9. Melrah Shake", "ConsoleApplication1\Problem 9. Melrah Shake.csproj", "{D913ABDE-AF86-4677-A028-76F6F92C0D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9DA660A-6DEB-4C6D-A220-74A84A28F1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DA660A-6DEB-4C6D-A220-74A84A28F1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DA660A-6DEB-4C6D-A220-74A84A28F1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DA660A-6DEB-4C6D-A220-74A84A28F1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04B823E-B879-4D80-B446-C2C3FFAC3D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04B823E-B879-4D80-B446-C2C3FFAC3D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04B823E-B879-4D80-B446-C2C3FFAC3D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04B823E-B879-4D80-B446-C2C3FFAC3D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33664F0-1599-4326-9F0D-77CDEA76776B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33664F0-1599-4326-9F0D-77CDEA76776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33664F0-1599-4326-9F0D-77CDEA76776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33664F0-1599-4326-9F0D-77CDEA76776B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253E89AE-AA35-4967-8E2A-5289A55CDEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253E89AE-AA35-4967-8E2A-5289A55CDEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253E89AE-AA35-4967-8E2A-5289A55CDEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253E89AE-AA35-4967-8E2A-5289A55CDEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0BE532-0CE3-421F-9AC5-908054C89556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0BE532-0CE3-421F-9AC5-908054C89556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0BE532-0CE3-421F-9AC5-908054C89556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0BE532-0CE3-421F-9AC5-908054C89556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620EC87B-058C-45C6-92DD-5DE126D9547D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620EC87B-058C-45C6-92DD-5DE126D9547D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620EC87B-058C-45C6-92DD-5DE126D9547D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620EC87B-058C-45C6-92DD-5DE126D9547D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAA574B-C349-4980-97CD-D39577B62DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAA574B-C349-4980-97CD-D39577B62DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAA574B-C349-4980-97CD-D39577B62DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAA574B-C349-4980-97CD-D39577B62DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B980EFF-3150-472C-9A95-B116D3657252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B980EFF-3150-472C-9A95-B116D3657252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B980EFF-3150-472C-9A95-B116D3657252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B980EFF-3150-472C-9A95-B116D3657252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D913ABDE-AF86-4677-A028-76F6F92C0D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D913ABDE-AF86-4677-A028-76F6F92C0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D913ABDE-AF86-4677-A028-76F6F92C0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D913ABDE-AF86-4677-A028-76F6F92C0D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

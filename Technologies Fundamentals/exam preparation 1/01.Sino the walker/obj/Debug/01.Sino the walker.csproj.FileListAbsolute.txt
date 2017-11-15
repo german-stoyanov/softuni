@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\bin\Debug\01.Sino the walker.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\bin\Debug\01.Sino the walker.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\bin\Debug\01.Sino the walker.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\obj\Debug\01.Sino the walker.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\obj\Debug\01.Sino the walker.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\01.Sino the walker\obj\Debug\01.Sino the walker.pdb

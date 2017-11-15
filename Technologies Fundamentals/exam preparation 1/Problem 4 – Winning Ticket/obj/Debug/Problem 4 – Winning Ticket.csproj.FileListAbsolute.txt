@@ -1,0 +1,5 @@
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\Problem 4 – Winning Ticket\bin\Debug\Problem 4 – Winning Ticket.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\Problem 4 – Winning Ticket\bin\Debug\Problem 4 – Winning Ticket.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\Problem 4 – Winning Ticket\bin\Debug\Problem 4 – Winning Ticket.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\Problem 4 – Winning Ticket\obj\Debug\Problem 4 – Winning Ticket.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 1\Problem 4 – Winning Ticket\obj\Debug\Problem 4 – Winning Ticket.pdb

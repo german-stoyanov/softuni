@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\bin\Debug\Problem_1.SoftUni_Coffee_Orders.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\bin\Debug\Problem_1.SoftUni_Coffee_Orders.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\bin\Debug\Problem_1.SoftUni_Coffee_Orders.pdb
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\obj\Debug\Problem 1. SoftUni Coffee Orders.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\obj\Debug\Problem_1.SoftUni_Coffee_Orders.exe
+c:\users\user1\documents\visual studio 2017\Projects\exam preparation 3\Problem 1. SoftUni Coffee Orders\obj\Debug\Problem_1.SoftUni_Coffee_Orders.pdb

@@ -1,0 +1,6 @@
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\obj\Debug\02. Icarus.csprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\user1\documents\visual studio 2017\Projects\Exam - 04 Sept 2017\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
