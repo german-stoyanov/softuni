@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8"><title>Focus</title>
+    <style>
+        div { width: 470px; }
+        div div {
+            text-align: center;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+            border: 1px solid #999;
+        }
+        .focused { background: #999999; }
+    </style>
+</head>
+<body onload="focus()">
+<div>
+    <div><h1>Section 1</h1><input type="text"/></div>
+    <div><h1>Section 2</h1><input type="text"/></div>
+    <div><h1>Section 3</h1><input type="text"/></div>
+    <div><h1>Section 4</h1><input type="text"/></div>
+</div>
+<script>
+    function focus() {
+        let inputs = document.getElementsByTagName('input');
+        for (let input of inputs) {
+            input.addEventListener('focus',colorize)
+            input.addEventListener('blur',uncolorize)
+            function colorize() {
+                input.parentNode.className = 'focused';
+            }
+            function uncolorize() {
+                input.parentNode.className = '';
+            }
+        }
+    }
+</script>
+</body>
+</html>
