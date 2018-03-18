@@ -1,0 +1,11 @@
+{
+  "name": "05.SharedObject",
+  "version": "0.0.1",
+  "dependencies": {
+    "chai": "latest",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "latest"
+  }
+}
