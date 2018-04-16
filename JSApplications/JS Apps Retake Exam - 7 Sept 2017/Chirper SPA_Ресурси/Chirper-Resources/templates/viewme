@@ -1,0 +1,26 @@
+{{> header}}
+{{> menu}}
+    <div class="content">
+        <div class="chirper">
+
+            <h2 class="titlebar">Pesho</h2>
+
+            <form id="formSubmitChirpMy" class="chirp-form">
+                <textarea name="text" class="chirp-input"></textarea>
+                <input class="chirp-submit" id="btnSubmitChirpMy" value="Chirp" type="submit">
+            </form>
+
+            <div id="myStats" class="user-details">
+                <span>{{chirpsC}} chirps</span> | <span>{{following}} following</span> | <span>{{followers}} followers</span>
+            </div>
+        </div>
+        <div id="myChirps" class="chirps">
+            <h2 class="titlebar">Chirps</h2>
+            {{#each chirps}}
+                {{> chirp}}
+                {{else}}
+                No chirps in database!
+            {{/each}}
+        </div>
+    </div>
+{{> footer}}

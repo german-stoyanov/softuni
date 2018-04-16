@@ -1,0 +1,52 @@
+{{> header}}
+<div class="content">
+{{> menu}}
+<section id="viewComments">
+    <div class="post">
+        <div class="col thumbnail">
+            <a href="{{postData.url}}">
+                <img src="{{postData.imageUrl}}">
+            </a>
+        </div>
+        <div class="post-content">
+            <div class="title">
+                <a href="{{postData.url}}">
+                    {{postData.title}}
+                </a>
+            </div>
+            <div class="details">
+                {{#if hasDesc}}
+                <p>{{postData.description}}</p>
+                    {{else}}
+                    <p>No Description!</p>
+                {{/if}}
+                <div class="info">
+                    submitted {{submitTime}} ago by {{postData.author}}
+                </div>
+                {{#if isAuthor}}
+                <div class="controls">
+                    <ul>
+                        <li class="action"><a class="editLink" href="#/edit/:{{postData._id}}">edit</a></li>
+                        <li class="action"><a class="deleteLink" href="#/delete/:{{postData._id}}">delete</a></li>
+                    </ul>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="post post-content">
+        <form id="commentForm" method="post" action="#/createComment/:{{postData._id}}">
+            <label>Comment</label>
+            <textarea name="content" type="text"></textarea>
+            <input type="submit" value="Add Comment" id="btnPostComment">
+        </form>
+    </div>
+   {{#each comments}}
+       {{> comment}}
+       {{else}}
+       <p>No comments yet!</p>
+   {{/each}}
+</section>
+</div>
+{{> footer}}
