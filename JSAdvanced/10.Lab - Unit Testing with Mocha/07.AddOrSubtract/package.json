@@ -1,8 +1,0 @@
-{
-  "name": "P07",
-  "version": "0.0.1",
-  "dependencies": {
-    "mocha": "latest",
-    "chai": "latest"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "Chirper-Resources",
-  "version": "0.0.1",
-  "dependencies": {
-    "jquery": "latest",
-    "sammy": "latest",
-    "handlebars": "latest"
-  }
-}

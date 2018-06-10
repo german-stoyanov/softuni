@@ -1,7 +1,0 @@
-{
-  "name": "Lab-Templates",
-  "version": "0.0.1",
-  "dependencies": {
-    "handlebars": "^4.0.11"
-  }
-}

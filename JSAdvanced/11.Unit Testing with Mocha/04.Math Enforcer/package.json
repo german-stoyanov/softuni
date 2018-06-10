@@ -1,8 +1,0 @@
-{
-  "name": "04.MathEnforcer",
-  "version": "0.0.1",
-  "dependencies": {
-    "mocha": "latest",
-    "chai": "latest"
-  }
-}

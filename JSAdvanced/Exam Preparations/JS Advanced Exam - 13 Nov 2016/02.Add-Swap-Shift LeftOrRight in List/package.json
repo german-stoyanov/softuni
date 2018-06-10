@@ -1,8 +1,0 @@
-{
-  "name": "02.Add-Swap-ShiftLeftOrRightinList",
-  "version": "0.0.1",
-  "dependencies": {
-    "mocha": "latest",
-    "chai": "latest"
-  }
-}
