@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <nav>
+                <a href="/" class="logo"><img class="logo" src="/public/images/nodeLogo.png" alt="nodeLogo"></a>
+                <input type="checkbox" id="nav" /><label for="nav"></label>
+                <ul>
+                    <li><a href="/memes/addMeme">Add Meme</a></li>
+                    <li><a href="/memes/viewAllMemes">View All Memes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="replaceMe">{{replaceMe}}</div>
+    
+    <script>
+        let $deleteButton = $('#delete');
+        $deleteButton.on('click', () => {
+            let memeId = $deleteButton.attr('data-meme-id');
+            $.post('/api/memes/delete/' + memeId)
+                .then(data => {
+                    window.location.pathname = data.location;
+                })
+                .catch(err => {
+                    $('.content')
+                        .first()
+                        .append($('<h1>').text(err));
+                })
+        })
+    </script>
+</body>
+</html>
