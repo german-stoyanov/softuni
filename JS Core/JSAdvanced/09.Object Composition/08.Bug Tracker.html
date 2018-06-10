@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Tracker</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+    <style>
+        #wrapper {
+            width: 800px;
+            border: 1px solid black;
+        }
+        #titlebar {
+            background-color: beige;
+            font-size: 2em;
+            padding: 0.5em;
+        }
+        .report {
+            margin: 1em;
+            border:1px solid black;
+            width: 400px;
+        }
+        .report .title {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 0.25em;
+            position: relative;
+        }
+        .report .body p {
+            margin: 0.5em;
+        }
+        .report .title .status {
+            display: inline-block;
+            right: 0px;
+            position: absolute;
+            margin-right: 0.5em;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="titlebar">Bug tracker</div>
+    <div id="content">
+        <div class="report">
+            <div class="body">
+                <p>Description</p>
+            </div>
+            <div class="title"><span class="author">Submitted by: Author</span><span class="status">Open | 5</span></div>
+        </div>
+        <div class="report">
+            <div class="body">
+                <p>Description</p>
+            </div>
+            <div class="title"><span class="author">Submitted by: Author</span><span class="status">Open | 5</span></div>
+        </div>
+        <div class="report">
+            <div class="body">
+                <p>Description</p>
+            </div>
+            <div class="title"><span class="author">Submitted by: Author</span><span class="status">Open | 5</span></div>
+        </div>
+    </div>
+</div>
+<script>
+   function solution () {
+       let id = 0;
+       let container;
+       let objects = [];
+       return{
+           report:function (author, description, reproducible, severity) {
+               let mainDiv = $('<div class="report">');
+               mainDiv.attr('id',`report_${id}`)
+               mainDiv
+                   .append($('<div class="body">')
+                       .append($(`<p>${description}</p>`)));
+               mainDiv
+                   .append($('<div class="title">')
+                       .append($(`<span class="author">Submitted by: ${author}</span>`))
+                       .append($(`<span class="status">Open | ${severity}</span>`)));
+               mainDiv.appendTo(container)
+               let bug = {
+                   id:id,
+                   author:author,
+                   reproducible:reproducible,
+                   severity:severity,
+                   description:description,
+                   status:'open'
+               }
+               objects.push(bug)
+               id++
+           },
+           remove:function (ID) {
+                objects = objects.filter(a=>a.id!==ID);
+               $(`#report_${ID}`).remove();
+           },
+           setStatus:function (id,newStatus) {
+               let status = $(`#report_${id}`).find('.status');
+               let oldSeverity = status.text().split(' | ')[1];
+               objects.filter(e=>e.id===id);
+               objects[id].status = newStatus;
+               status.text(newStatus+' | '+oldSeverity)
+
+           },
+           output: function (selector) {
+               container = $(selector);
+           },
+           sort: function (method) {
+                if(method==='author'){
+                    container.html('');
+                    let sorted = objects.sort((a,b)=>a.author.localeCompare(b.author));
+                    console.log(sorted)
+                    sorted.forEach(element=>{
+                        let mainDiv = $('<div class="report">');
+                        mainDiv.attr('id',`report_${element.id}`)
+                        mainDiv
+                            .append($('<div class="body">')
+                                .append($(`<p>${element.description}</p>`)));
+                        mainDiv
+                            .append($('<div class="title">')
+                                .append($(`<span class="author">Submitted by: ${element.author}</span>`))
+                                .append($(`<span class="status">${element.status} | ${element.severity}</span>`)));
+                        mainDiv.appendTo(container)
+                    })
+
+                }
+                else if(method==='severity'){
+                    container.html('');
+                    let sorted = objects.sort((a,b)=>a.severity-b.severity);
+                    console.log(sorted)
+                    sorted.forEach(element=>{
+                        let mainDiv = $('<div class="report">');
+                        mainDiv.attr('id',`report_${element.id}`)
+                        mainDiv
+                            .append($('<div class="body">')
+                                .append($(`<p>${element.description}</p>`)));
+                        mainDiv
+                            .append($('<div class="title">')
+                                .append($(`<span class="author">Submitted by: ${element.author}</span>`))
+                                .append($(`<span class="status">${element.status} | ${element.severity}</span>`)));
+                        mainDiv.appendTo(container)
+                    })
+                }
+                else{
+                    container.html('');
+                    let sorted = objects.sort((a,b)=>a.id-b.id);
+                    console.log(sorted)
+                    sorted.forEach(element=>{
+                        let mainDiv = $('<div class="report">');
+                        mainDiv.attr('id',`report_${element.id}`)
+                        mainDiv
+                            .append($('<div class="body">')
+                                .append($(`<p>${element.description}</p>`)));
+                        mainDiv
+                            .append($('<div class="title">')
+                                .append($(`<span class="author">Submitted by: ${element.author}</span>`))
+                                .append($(`<span class="status">${element.status} | ${element.severity}</span>`)));
+                        mainDiv.appendTo(container)
+                    })
+                }
+           }
+       }
+   }
+
+
+   let tracker = solution();
+
+   tracker.output('#content');
+   tracker.report('guy', 'report content', true, 5);
+   tracker.report('second guy', 'report content 2', true, 3);
+   tracker.sort('author')
+</script>
+</body>
+</html>

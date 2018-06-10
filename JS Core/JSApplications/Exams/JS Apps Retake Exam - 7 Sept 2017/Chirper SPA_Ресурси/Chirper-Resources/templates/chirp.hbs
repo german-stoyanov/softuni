@@ -1,0 +1,12 @@
+<article class="chirp">
+    <div class="titlebar">
+        <a href="#/feed/:{{author}}" class="chirp-author">{{author}}</a>
+        <span class="chirp-time">
+            {{#if isAuth}}
+                <a href="#/delete/:{{_id}}">DELETE</a>
+            {{/if}}
+            {{submitAgo}}
+        </span>
+    </div>
+    <p>{{text}}</p>
+</article>

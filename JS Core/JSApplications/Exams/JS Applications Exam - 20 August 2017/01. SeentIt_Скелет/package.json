@@ -1,0 +1,9 @@
+{
+  "name": "01.SeentIt",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "latest",
+    "handlebars": "latest",
+    "sammy": "latest"
+  }
+}

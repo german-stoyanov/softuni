@@ -1,0 +1,20 @@
+<section id="register">
+    <div class="container centered">
+        {{> header}}
+        <div class="box">
+            <h1>Register</h1>
+            <div class="content">
+                <form id="register-form" method="post" action="#/register">
+                    <label for="newUsername">Username</label>
+                    <input name="username" id="newUsername" type="text">
+                    <label for="newPassword">Password</label>
+                    <input name="pass" id="newPassword" type="password">
+                    <label for="newPassRep">Repeat Password</label>
+                    <input name="passR" id="newPassRep" type="password">
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+        {{> footer}}
+    </div>
+</section>

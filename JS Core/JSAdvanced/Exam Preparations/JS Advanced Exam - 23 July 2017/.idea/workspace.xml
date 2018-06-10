@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e31d94d7-3bf6-4b8a-9feb-887f17cf383f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04.Contacts/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <marker date="1520851143329" expanded="true" signature="1729:1948" ph="..." />
+                <marker date="1520851143329" expanded="true" signature="1796:1803" ph="..." />
+                <marker date="1520851143329" expanded="true" signature="1840:1937" ph="..." />
+                <marker date="1520851143329" expanded="false" signature="1856:1863" ph="☎" />
+                <marker date="1520851143329" expanded="true" signature="1899:1906" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01.Select and Print/select-print.html" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/summator.js" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/summatorTest.js" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/package-lock.json" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/package.json" />
+        <option value="$PROJECT_DIR$/sum.js" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumator.js" />
+        <option value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js" />
+        <option value="$PROJECT_DIR$/03.Task (Simple Class)/task.js" />
+        <option value="$PROJECT_DIR$/04.Contacts/contacts.js" />
+        <option value="$PROJECT_DIR$/04.Contacts/contacts.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="21" />
+    <option name="width" value="1938" />
+    <option name="height" value="724" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JS Advanced Exam - 23 July 2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Advanced Exam - 23 July 2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Advanced Exam - 23 July 2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Advanced Exam - 23 July 2017" type="462c0819:PsiDirectoryNode" />
+              <item name="03.Task (Simple Class)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Advanced Exam - 23 July 2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Advanced Exam - 23 July 2017" type="462c0819:PsiDirectoryNode" />
+              <item name="04.Contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.contacts.js">
+    <configuration name="Test Sumator class.sumNums tests" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js</test-file>
+      <test-names>
+        <name value="Test Sumator class" />
+        <name value="sumNums tests" />
+      </test-names>
+    </configuration>
+    <configuration name="Unit test" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js</test-file>
+    </configuration>
+    <configuration name="contacts.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="contacts.js" working-dir="$PROJECT_DIR$/04.Contacts" />
+    <configuration name="sum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sum.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="sumator test" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js</test-file>
+      <test-names>
+        <name value="sumator test" />
+      </test-names>
+    </configuration>
+    <configuration name="task.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="task.js" working-dir="$PROJECT_DIR$/03.Task (Simple Class)" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Unit test" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.sum.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.sumator test" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Test Sumator class.sumNums tests" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.task.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.contacts.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.contacts.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.task.js" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Test Sumator class.sumNums tests" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.sumator test" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.sum.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e31d94d7-3bf6-4b8a-9feb-887f17cf383f" name="Default" comment="" />
+      <created>1520763757366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520763757366</updated>
+      <workItem from="1520763758666" duration="13552000" />
+      <workItem from="1520845817374" duration="5334000" />
+      <workItem from="1520876279413" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_Sumator_class_sumNums_tests - 2018.03.11 at 14h 32m 45s.xml">
+      <configuration name="Test Sumator class.sumNums tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Test_Sumator_class_sumNums_tests - 2018.03.11 at 14h 33m 18s.xml">
+      <configuration name="Test Sumator class.sumNums tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 33m 23s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 34m 14s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 34m 27s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 35m 06s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 35m 38s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 35m 58s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unit_test - 2018.03.11 at 14h 38m 00s.xml">
+      <configuration name="Unit test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="sumator_test - 2018.03.11 at 14h 32m 40s.xml">
+      <configuration name="sumator test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19134000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/01.Select and Print/select-print.html</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/03.Task (Simple Class)/task.js</url>
+          <line>97</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/04.Contacts/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520851143329" expanded="true" signature="1729:1948" ph="..." />
+            <marker date="1520851143329" expanded="true" signature="1796:1803" ph="..." />
+            <marker date="1520851143329" expanded="true" signature="1840:1937" ph="..." />
+            <marker date="1520851143329" expanded="false" signature="1856:1863" ph="☎" />
+            <marker date="1520851143329" expanded="true" signature="1899:1906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Task (Simple Class)/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520777755127" expanded="true" signature="10:1923" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="32:189" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="96:132" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="146:183" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="216:396" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="280:327" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="341:389" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="416:454" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="480:597" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="511:559" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="629:761" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="776:1164" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="917:977" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1019:1069" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1191:1921" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1348:1391" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1415:1458" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1490:1723" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1529:1570" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1613:1655" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1672:1713" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1736:1915" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1805:1846" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1863:1905" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="2656:2667" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="2772:2940" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.Select and Print/select-print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="e#764#776#1" expanded="true" />
+            <element signature="e#834#845#1" expanded="true" />
+            <marker date="1520767143726" expanded="true" signature="1414:1923" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Sumator Class (Unit Testing)/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Sumator Class (Unit Testing)/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum.js" />
+    <entry file="file://$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumatorTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Sumator Class (Unit Testing)/sumator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Task (Simple Class)/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <marker date="1520777755127" expanded="true" signature="10:1923" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="32:189" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="96:132" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="146:183" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="216:396" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="280:327" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="341:389" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="416:454" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="480:597" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="511:559" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="629:761" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="776:1164" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="917:977" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1019:1069" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1191:1921" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1348:1391" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1415:1458" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1490:1723" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1529:1570" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1613:1655" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1672:1713" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1736:1915" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1805:1846" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="1863:1905" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="2656:2667" ph="{...}" />
+            <marker date="1520777755127" expanded="true" signature="2772:2940" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Contacts/contacts.js" />
+    <entry file="file://$PROJECT_DIR$/04.Contacts/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1520851143329" expanded="true" signature="1729:1948" ph="..." />
+            <marker date="1520851143329" expanded="true" signature="1796:1803" ph="..." />
+            <marker date="1520851143329" expanded="true" signature="1840:1937" ph="..." />
+            <marker date="1520851143329" expanded="false" signature="1856:1863" ph="☎" />
+            <marker date="1520851143329" expanded="true" signature="1899:1906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
