@@ -1,0 +1,24 @@
+<div class="container">
+    <form action="/memes/addMeme" enctype=multipart/form-data method="POST">
+        <label for="movieTitle">Title</label>
+        <input type="text" id="movieTitle" name="memeTitle" placeholder="The title of the movie">
+
+        <select name='genreSelect' id="genreSelect">
+            {{#each genres}}
+            <option value="{{_id}}">{{title}}</option>
+            {{/each}}
+        </select>
+
+
+        <label for="moviePoster">Poster URL</label>
+        <input type="file" id="moviePoster" name="meme" placeholder="Link to a poster">
+
+        <input type="checkbox" name='status' id='status' checked> public
+
+        <label for="movieDescription">Movie description</label>
+        <textarea id="movieDescription" name="memeDescription" placeholder="Movie description" rows="10" cols="10"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>

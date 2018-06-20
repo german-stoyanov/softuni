@@ -1,0 +1,13 @@
+<form method="POST" action="/cars/rent/{{_id}}">
+        <section>
+            <img src="{{imageUrl}}" alt='car-image' />    
+        </section>
+        <section class="info">
+            <strong>{{make}} {{model}}</strong>
+            <span class="rented">rented: 
+                <strong>{{timesRented}}</strong>
+            </span>
+        </section>
+        <button type="submit" value="RENT">RENT</button>
+        
+</form>

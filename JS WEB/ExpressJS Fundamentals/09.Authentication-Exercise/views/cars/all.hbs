@@ -1,0 +1,27 @@
+<h1>Cars</h1>
+<div class="cars-container">
+        <div class="car-container">
+            {{#each cars}}
+            <section>
+                <a href="/cars/edit/{{_id}}">
+                    <img src="{{imageUrl}}" alt='car-image' />    
+                </a>           
+            </section>
+            <section class="info">
+                <strong>{{make}} {{model}}</strong>
+                <span class="rented">rented: 
+                    <strong>{{timesRented}}</strong>
+                </span>
+                
+            </section>
+            <section>
+            <a href="/cars/rent/{{_id}}">
+                    Rent the car!
+                </a>  
+            </section>
+            {{else}}
+            <span>No available cars!</span>
+            {{/each}}
+            
+        </div>
+</div>

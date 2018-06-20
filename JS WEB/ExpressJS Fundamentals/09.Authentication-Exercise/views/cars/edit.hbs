@@ -1,0 +1,8 @@
+<h1>Edit a car</h1>
+<form method="post" action="/cars/edit/{{_id}}" enctype="multipart/form-data">
+    <input name="make" value="{{make}}" placeholder="enter make" />
+    <input name="model" value="{{model}}" placeholder="enter model" />
+    <input name="imageUrl" type="file" value="{{imageUrl}}" placeholder="enter image url" />
+    <input name="color" value="{{color}}" placeholder="enter color (optional)" />
+    <input id="submit" type="submit" value="EDIT" />
+</form>

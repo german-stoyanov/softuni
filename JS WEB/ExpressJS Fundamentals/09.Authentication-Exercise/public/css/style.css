@@ -1,0 +1,186 @@
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+
+.error {
+    background-color: red
+}
+
+.message {
+    background-color: green
+}
+
+html {
+    height:100%;
+}
+body {
+    position: relative;
+    width:100%;
+    min-height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #607D8B;
+}
+a {
+    color: #607D8B;
+}
+
+header {
+    top:0;
+    z-index:1;
+    width: 100%;
+    height:50px;
+    border-bottom: 1px solid lightgray;
+    background-color: #dddddd;
+}
+nav {
+    height: 100%;
+    text-align: center;
+}
+nav #logo {
+    height: 80%;
+    float: left;
+    margin: 5px;
+}
+nav ul {
+    height:100%;
+    display: inline-block;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+nav li {
+    display:inline-block;
+    height:100%;
+}
+nav a {
+    text-decoration: none;
+    height: calc(100% - 20px);
+    display: block;
+    padding: 20px 10px 0 10px;
+    transition: 0.1s all ease-in-out;
+    text-transform: uppercase;
+    color: #607D8B;
+}
+nav li:hover a {
+    background-color:#fad760e6;
+    border-bottom: 1px solid gray;
+}
+nav ul#user {
+    position: absolute;
+    right: 0;
+    height: 50px;
+}
+#main-container {
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #607D8B;
+}
+main {
+    text-align: center;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    left: 0;
+    background-color: #dddddd;
+    color: #607D8B;
+    padding: 10px;
+}
+
+.car-container {
+    display: inline-block;
+    margin:10px;
+}
+.car-container section {
+    border-bottom: 1px solid lightgray;
+}
+.car-container:hover section {
+    border-color: #fad760e6;
+}
+.car-container img {
+    height: 180px;
+    width: 270px;
+}
+.car-container section.info { 
+    padding: 5px 15px;
+    text-align: left;
+}
+span.rented {
+    float: right;
+}
+
+form {
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    transition: 0.1s all ease-in-out;
+    color: #607D8B;
+}
+
+input::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+input:focus {
+    outline:none;
+    border-color: #fad760e6;
+    border-width: 2px;
+    padding-bottom:0;
+}
+input#submit {
+    border-bottom: none;
+    padding: 5px;
+}
+input#submit:hover {
+    background-color:#fad760e6;
+}
+
+table {
+    width: 100%;
+}
+thead {
+   font-weight: bold;
+}
+td {
+    border: 1px solid transparent;
+    background-color: #dddddd;
+}
+
+#notification {
+    padding:10px;
+}
+.notification {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-radius: 2px;
+    color: white;
+}
+.error {
+    background-color: #f13513d1;
+}
+.success {
+    background-color: green;
+}

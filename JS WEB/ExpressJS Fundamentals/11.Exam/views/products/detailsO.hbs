@@ -1,0 +1,79 @@
+
+        <main>
+            <h1>Order details</h1>
+            <div class="catalog">
+                <div class="column">
+                    <img src="{{product.imageUrl}}">
+                </div>
+                <div class="column">
+                    <h2>{{product.category}} doner, {{product.size}}cm</h2>
+                <h3>From {{dateF}}</h3>
+                    <div class="toppings">
+                        {{#each toppings}}
+                        {{this}}<br>
+                        {{else}}
+                        <span>No toppings</span>
+                        {{/each}}
+                    </div>
+                </div>
+                <div class="status">
+                    {{#ifEq status "Pending"}}
+                    <div class="status-block">
+                        <span class="progress-right"></span>
+                        <span class="checkpoint current"></span><br>
+                        Pending
+                    </div>
+                    {{else}}
+                     <div class="status-block">
+                        <span class="progress-right"></span>
+                        <span class="checkpoint"></span><br>
+                        Pending
+                    </div>
+                    {{/ifEq}}
+                    {{#ifEq status "In Progress"}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="progress-right"></span>
+                        <span class="checkpoint current"></span><br>
+                        In progress
+                    </div>
+                    {{else}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="progress-right"></span>
+                        <span class="checkpoint"></span><br>
+                        In progress
+                    </div>
+                    {{/ifEq}}
+                    {{#ifEq status "In Transit"}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="progress-right"></span>
+                        <span class="checkpoint current"></span><br>
+                        In transit
+                    </div>
+                    {{else}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="progress-right"></span>
+                        <span class="checkpoint"></span><br>
+                        In transit
+                    </div>
+                    {{/ifEq}}
+                    {{#ifEq status "Delivered"}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="checkpoint current"></span><br>
+                        Delivered
+                    </div>
+                    {{else}}
+                    <div class="status-block">
+                        <span class="progress-left"></span>
+                        <span class="checkpoint"></span><br>
+                        Delivered
+                    </div>
+                    {{/ifEq}}
+                </div>
+            </div>
+        </main>
+    

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RentACar</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="icon" href="/favicon.ico?" />
+
+</head>
+</body class="preload">
+    <header>
+      
+
+        {{#if error}}
+        <div class="error">{{error}}</div>
+        {{/if}}
+        {{#if message}}
+        <div class="message">{{message}}</div>
+        {{/if}}
+        <nav>
+            
+            <img id="logo" src="/logo.png" alt="logo"/>
+            <ul id="main-nav">
+                <li><a href="/">home</a></li>
+                <li><a href="/cars/all">all cars</a></li>
+                <li><a href="/cars/create">add car</a></li>
+                <li><a href="/users/profile/me">profile</a></li>
+            </ul>
+            {{#if user}}
+                {{#ifAdmin user.username}}
+                <ul id="user">
+                    <span>Hello batka ti si admina </span>
+                    <li><a href="/user/logout">logout</a></li>
+                </ul>
+                {{else}}
+                <ul id="user">
+                    <span>Hello {{user.username}}</span>
+                    <li><a href="/user/logout">logout</a></li>
+                </ul>
+               {{/ifAdmin}}
+               {{else}}
+                <ul id="user">
+                    <li><a href="/user/login">Login</a></li>
+                    <li><a href="/user/register">Register</a></li>
+                </ul>
+
+            {{/if}}
+        </nav>
+    </header>
+    <section id="main-container">
+        <main>
+          {{{body}}}
+        </main>
+    </section>
+    <footer>
+        <span>Authentication exercise</span>
+    </footer>
+    <script>
+        document.onload = function() {
+            document
+                .querySelector('body')
+                .classList
+                .remove('preload');
+        }
+    </script>
+</body>
+</html>
