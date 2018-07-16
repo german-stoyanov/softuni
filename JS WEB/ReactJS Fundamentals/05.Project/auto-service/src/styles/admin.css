@@ -1,0 +1,66 @@
+.ainfo{
+    float: left;
+  
+}
+.ainfo img{
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 15px;
+}
+.awrapper{
+    background-color: rgb(204, 221, 243);
+    min-height: 600px;
+}
+.forms{
+    display: inline-block;
+    position: absolute;
+    right: 450px;
+    top: 100px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(227, 235, 161);
+}
+.ainfo strong{
+    margin: 15px;
+    padding-top: 10px;
+
+    position: absolute;
+    top: 30px;
+}
+.roleG{
+    position: absolute;
+    top:  67px;
+    display: inline-block;
+}
+.roleG label strong{
+    margin: 10px;
+}
+.role {
+    margin: 10px;
+    border: 3px solid black;
+    min-height: 300px;
+    min-width: 400px;
+}
+#user{
+    margin: 15px;
+    border: 1px dotted red;
+}
+.nwrapper{
+   min-width: 175px;
+    
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.nwrapper label strong{
+    margin: 10px;
+}
+.navigation{
+    border: 3px dotted black;
+    border-radius: 10px;
+}
+

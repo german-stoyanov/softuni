@@ -1,0 +1,88 @@
+#craftsmans{
+   
+    min-height: 533px;
+}
+#craftsman{
+   
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px; 
+    background-color: rgb(211, 235, 211)
+}
+#craftsman img{
+    width: 200px;
+    height: 200px;
+}
+#craftsman .info{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(238, 220, 220);
+}
+#craftsman h1{
+    margin: 15px;
+}
+#craftsman img{
+    margin: 15px;
+}
+#craftsman .description{
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 275px;
+    vertical-align: 240px;
+    margin-top: 20px;
+   position: absolute;
+}
+#craftsman .d{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 205px;
+    width: 300px;
+}
+#craftsman .repairsMade{
+    margin: 15px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: 230px;
+    position: absolute;
+}
+#craftsman .repairsMade .list{
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+}
+#craftsman .comments{
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 595px;
+    vertical-align: 240px;
+    margin-top: 20px;
+   position: absolute;
+}
+#craftsman .comments span{
+    margin: 5px;
+    
+}
+#craftsman .c{
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 205px;
+    width: 300px;
+}
+#craftsman .write{
+    width: 290px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 900px;
+    margin-top: 90px;
+    position: absolute;
+}

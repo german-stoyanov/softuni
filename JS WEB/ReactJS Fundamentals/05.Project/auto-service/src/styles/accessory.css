@@ -1,0 +1,22 @@
+.accessory{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.links button{
+    margin: 5px;
+}
+.accessory img{
+    height: 200px;
+    width: 250px;
+}
+.DetailsAccessory img{
+    height: 400px;
+    width: 800px;
+}
+#accessories{
+    background-color: rgb(186, 229, 200);
+    min-height: 600px;
+}

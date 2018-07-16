@@ -1,0 +1,61 @@
+.repair{
+    background-color: rgb(233, 242, 250);
+    margin: 10px;
+    border: 3px solid pink;
+    border-radius: 10px;
+    display: inline-block;
+}
+#repairs{
+    background-color: rgb(202, 240, 240);
+    min-height: 600px;
+}
+.repair .before{
+    display: inline-block;
+}
+.repair .images{
+    margin: 15px;
+}
+.repair span{
+    margin: 15px;
+}
+.repair .images img{
+    border: 1px solid red;
+    margin: 1px;
+    width: 100px;
+    height: 100px;
+}
+.repairD {
+    margin: 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: rgb(247, 221, 221)
+}
+.repair .links{
+    text-align: center;
+}
+.repairD .before{
+    display: inline-block;
+    border: 3px solid black;
+    margin: 5px;
+}
+.repairD .info{
+    display: inline-block;
+}
+.repairD .craftsman{
+    border: 4px solid black;
+}
+.repairD .moreinfo{
+   
+    margin: 5px;
+    display: inline-block;
+}
+.repairD .moreinfo img{
+    width: 400px;
+    height: 400px;
+}
+.repairD .images img{
+   
+    margin: 1px;
+    width: 400px;
+    height: 400px;
+}

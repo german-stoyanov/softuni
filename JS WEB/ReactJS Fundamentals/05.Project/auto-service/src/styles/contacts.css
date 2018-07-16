@@ -1,0 +1,27 @@
+#contacts{
+    background-color: rgb(202, 243, 208);
+    min-height: 585px;
+}
+#contacts img{
+    height: 100px;
+    width: 100px;
+}
+.map{
+    padding: 10px;
+    
+}
+#maps{
+    display: inline-block;
+}
+#maps1{
+    margin: 10px;
+   
+    width: 350px;
+    display: inline-block;
+    vertical-align: 90px;
+}
+#contacts span{
+    margin: 15px;
+    
+    color: red;
+}
