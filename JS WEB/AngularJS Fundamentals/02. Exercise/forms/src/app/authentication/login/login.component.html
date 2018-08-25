@@ -1,0 +1,33 @@
+{{loginModel | json}}
+<div class="container">
+  <h1>Login Form</h1>
+  <form #form="ngForm" (ngSubmit)="login()">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" id="username" 
+      required
+      name="username"
+      [(ngModel)]="loginModel.username"
+      #username="ngModel">
+    </div>
+    <div class="alert alert-danger" *ngIf="username.invalid && username.touched">
+      Username is required
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" 
+      required
+      name="password"
+      [(ngModel)]="loginModel.password"
+      #password="ngModel">
+    </div>
+    <div class="alert alert-danger" *ngIf="password.invalid && password.touched">
+      Password is required
+    </div>
+    <button type="submit" [disabled]="form.invalid" class="btn btn-success">Login</button>
+  </form>
+  <div *ngIf="err">
+    {{err}}
+  </div>
+</div>
+
