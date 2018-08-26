@@ -1,0 +1,80 @@
+{{data | json}}
+<div class="container">
+  <div class="row space-top">
+      <div class="col-md-12">
+          <h1>Create New Flat addvertisment</h1>
+    
+      </div>
+  </div>
+  <form #form="ngForm" (ngSubmit)="create(form.value)">
+      <div class="row space-top">
+          
+          <div class="col-md-5">
+            <div class="form-group">
+              <label class="form-control-label" for="new-material">Category</label>
+              <select name="" id="" ngModel name="category" #category="ngModel" >
+                <option value="rent">rent</option>
+                <option value="sale">sale</option>
+              </select>
+            </div>
+              <div class="form-group">
+                  <label class="form-control-label" >Town</label>
+                  <input class="form-control" ngModel name="town" type="text"
+                 >
+              </div>
+              <div class="form-group has-success">
+                  <label class="form-control-label" >Address</label>
+                  <input class="form-control is-valid"  ngModel name="address" type="text" 
+                 >
+                  
+              </div>
+              <div class="form-group has-danger">
+                  <label class="form-control-label" for="new-year">Price</label>
+                  <input class="form-control is-valid" name="price" ngModel id="new-year" type="number">
+                  
+              </div>
+              <div class="form-group">
+                  <label class="form-control-label" for="new-description">Description</label>
+                  <input class="form-control" ngModel name="description" id="new-description" type="text"  >
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="form-group">
+                  <label class="form-control-label" for="new-price">Size</label>
+                  <input class="form-control" ngModel name="size" id="new-price" type="number" >
+              </div>
+              <div class="form-group">
+                  <label class="form-control-label" for="new-image">ImageUrl</label>
+                  <input class="form-control" ngModel name="imageUrl" id="new-image" type="text">
+              </div>
+              <div class="form-group" >
+                    <label class="form-control-label" for="new-material">Broker</label>
+                    <select  name="" id="" ngModel name="broker" #period="ngModel">
+                      <option *ngFor="let broker of brokers" [value]="broker._id">{{broker.name}}</option>
+                    </select>
+              </div>
+              <div class="form-group" *ngIf="category.value=='rent'">
+                  <label class="form-control-label" for="new-material">Period for paying</label>
+                  <select name="" id="" ngModel name="period" #period="ngModel">
+                    <option value="per month">per month</option>
+                    <option value="per night">per night</option>
+                    <option value="per year">per year</option>
+                  </select>
+              </div>
+              <div *ngIf="category.value=='sale'">
+                   <div class="form-group">
+                      <input type="checkbox" name="brick" ngModel value="Bike"> Brick<br>
+                   </div>
+                   <div class="form-group">
+                    <input type="checkbox" name="heating" ngModel value="Bike"> Local Heating<br>
+                   </div>
+                   <div class="form-group">
+                      <input type="checkbox" name="elevator" ngModel  value="Bike"> Elevator<br>
+                    </div>
+                  </div>
+              <input type="submit" class="btn btn-primary" value="Create" />
+          </div>
+      </div>
+  </form>
+</div>
+

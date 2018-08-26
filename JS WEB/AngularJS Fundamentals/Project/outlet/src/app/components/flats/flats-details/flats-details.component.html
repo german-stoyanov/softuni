@@ -1,0 +1,40 @@
+<div class="container" *ngIf="flat | async as flat">
+    <div class="row space-top">
+        <div class="col-md-12">
+            <h1>Flat Details</h1>
+        </div>
+    </div>
+    <div class="row space-top">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <blockquote class="card-blockquote">
+                        <img src="{{flat.imageUrl}}" />
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>For: {{flat.category}}</p>
+            <p>Address: {{flat.town}} - {{flat.address}}</p>
+            <p>Size: {{flat.size}}</p>
+            <p>Description: {{flat.description}}</p>
+            
+            <p *ngIf="flat.category==='sale'"> Price: {{flat.price}}</p>
+            <p *ngIf="flat.category==='rent'">Price: {{flat.price}} {{flat.period}}</p>
+            <ul *ngIf="flat.category==='sale'">
+              <li>
+                Brick - {{flat.brick | yesorno}}
+              </li>
+              <li>
+                Elevator - {{flat.elevator | yesorno}}
+              </li>
+              <li>
+                 Local Heating - {{flat.heating | yesorno}}
+              </li>
+            </ul>
+            <a routerLink="/brokers/details/{{flat.broker}}">Broker</a>
+        </div>
+    </div>
+  </div>
+  

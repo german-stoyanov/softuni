@@ -1,0 +1,23 @@
+<div class="primary" *ngIf="data">
+  <div class="card text-white bg-primary">
+      <div class="card-body">
+          <blockquote class="card-blockquote">
+              <img src="{{data.imageUrl}}" />
+              <p>{{data.town}}-{{data.address}}</p>
+              
+              <footer>
+                  <cite *ngIf="data.category==='rent'" title="Source Title">Price - {{data.price}} {{data.period}}</cite>
+                  <cite *ngIf="data.category==='sale'" title="Source Title">Price - {{data.price}}</cite>
+              </footer>
+              <div class="pull-right">
+                  <a routerLink="/flats/details/{{data._id}}" class="btn btn-info">Details</a>
+                  <a *ngIf="AuthService.isAdmin()" routerLink="/flats/edit/{{data._id}}" class="btn btn-danger">Edit</a>
+                  <a (click)="deleteItem(data._id)" *ngIf="AuthService.isAdmin()" class="btn btn-danger">Delete</a>
+                
+              </div>
+              <i *ngIf="!include" class="fa fa-star fa-2x"  appHighlight aria-hidden="true" (click)="addToFav(data._id)" ></i>
+              <i *ngIf="include" class="fa fa-star fa-2x text-warning"  appHighlight aria-hidden="true" (click)="addToFav(data._id)" ></i>
+          </blockquote>
+      </div>
+  </div>
+</div>

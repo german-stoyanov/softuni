@@ -1,0 +1,21 @@
+<div class="primary" *ngIf="data">
+    <div class="card text-white bg-primary">
+        <div class="card-body">
+            <blockquote class="card-blockquote">
+              <div class="col-md-5">
+                <img src="{{data.imageUrl}}" />
+              </div>
+              <div class="col-md-5">
+                Descripton - {{data.description}}
+                <br />
+                Age - {{data.age}}
+              </div>
+              <p>{{data.name}}</p>
+              <div class="pull-right">
+                    <a routerLink="/brokers/details/{{data._id}}" class="btn btn-info">Details</a>
+              </div>
+            </blockquote>
+        </div>
+    </div>
+  </div>
+  

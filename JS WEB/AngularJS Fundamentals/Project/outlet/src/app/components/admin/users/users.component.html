@@ -1,0 +1,13 @@
+<div class="col-md-6">
+  <h1>All Users</h1>
+  <ul class="list-group " >
+    <li class="list-group-item d-flex justify-content-between align-items-center" [@list1] *ngFor="let user of users">
+      {{user.username}}
+      <span>Member since {{user._kmd.ect | date}}</span>
+      <button type="button" class="btn btn-danger" (click)="removeUser(user._id)">Ban</button>
+    </li>
+  </ul>
+</div>
+
+
+

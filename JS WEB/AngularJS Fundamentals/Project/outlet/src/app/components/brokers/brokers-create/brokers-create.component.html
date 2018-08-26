@@ -1,0 +1,32 @@
+{{data | json}}
+<div class="container">
+  <div class="row space-top">
+      <div class="col-md-12">
+          <h1>Add New Broker</h1>
+    
+      </div>
+  </div>
+  <form #form="ngForm" (ngSubmit)="create(form.value)">
+      <div class="row space-top">
+          <div class="col-md-8">
+              <div class="form-group">
+                  <label class="form-control-label" >Name</label>
+                  <input class="form-control" ngModel name="name" type="text">
+              </div>
+              <div class="form-group has-success">
+                  <label class="form-control-label" >Age</label>
+                  <input class="form-control is-valid"  ngModel name="age" type="number">
+              </div>
+              <div class="form-group has-success">
+                  <label class="form-control-label" >Image</label>
+                  <input class="form-control is-valid"  ngModel name="imageUrl" type="text">
+              </div>
+              <div class="form-group">
+                  <label class="form-control-label" for="new-description">Description</label>
+                  <input class="form-control" ngModel name="description" id="new-description" type="text"  >
+              </div>
+              <input type="submit" class="btn btn-primary" value="Create" />
+          </div>
+      </div>
+  </form>
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row space-top">
+      <div class="col-md-12">
+          <h1>Welcome to united real estates of Burgas</h1>
+          <p>Select flat from the catalog to view details.</p>
+      </div>
+  </div>
+      <div class="row space-top">
+          
+         <app-flat-single *ngFor="let flat of flats" [@list1] [data]="flat"  (onDelete)="delete($event)" (changeArray)="changeArray($event)" class="col-md-4" ></app-flat-single>
+        
+      </div>
+</div>

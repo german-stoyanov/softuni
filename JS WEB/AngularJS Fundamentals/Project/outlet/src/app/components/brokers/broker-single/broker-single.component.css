@@ -1,0 +1,9 @@
+img{
+    border: 3px solid pink;
+    border-radius: 5px;
+    width: 100%;
+}
+div .col-md-5{
+    display: inline-block;
+    
+}

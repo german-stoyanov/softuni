@@ -1,0 +1,26 @@
+<div class="container" *ngIf="broker && flats">
+    <div class="row space-top">
+        <div class="col-md-12">
+            <h1>Broker Details</h1>
+        </div>
+    </div>
+    <div class="row space-top">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <blockquote class="card-blockquote">
+                        <img src="{{broker.imageUrl}}" />
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>Name: {{broker.name}}</p>
+            <p>Age: {{broker.age}}</p>
+            <p>Description: {{broker.description}}</p>
+            <h5>Offers</h5>
+            <a *ngFor="let flat of flats; let i = index" href="/flats/details/{{flat._id}}">Offer {{i+1}}</a>
+        </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,9 @@
+footer{
+    background-color: rgba(173, 76, 157, 0.979);
+    flex-shrink: 0;
+    text-align: center;
+}
+img{
+    
+    width: 70px;
+}

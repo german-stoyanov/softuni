@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+    
+}
+img {
+    border: 3px solid pink;
+    border-radius: 5px;
+    width: 100%;
+}
+.col-md-6 {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}

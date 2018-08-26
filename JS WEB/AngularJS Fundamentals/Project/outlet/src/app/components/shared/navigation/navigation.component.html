@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Flats</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item" *ngIf="service.isLogged()">
+          <a class="nav-link"  routerLink="/flats/sale/all">For sale <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item" *ngIf="service.isLogged()">
+          <a class="nav-link" routerLink="/flats/rent/all">For rent <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item" *ngIf="service.isLogged()">
+          <a class="nav-link" routerLink="/flats/all/mine">Favourites <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item" *ngIf="!service.isLogged()">
+        <a class="nav-link" routerLink="/signin">Login</a>
+      </li>
+      <li class="nav-item" *ngIf="!service.isLogged()">
+        <a class="nav-link" routerLink="/signup">Register</a>
+      </li>
+      <li class="nav-item" *ngIf="service.isAdmin()">
+          <a class="nav-link" routerLink="/users">All Users</a>
+      </li>
+      <li class="nav-item" *ngIf="service.isAdmin()">
+          <a class="nav-link" routerLink="/flats/create">Create Flat</a>
+      </li>
+      <li class="nav-item" *ngIf="service.isAdmin()">
+          <a class="nav-link" routerLink="/brokers/create">Add Broker</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" *ngIf="service.isLogged()" routerLink="/brokers/all">All Brokers</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" *ngIf="service.isLogged()" (click)="logout()">Logout</a>
+      </li>
+      <span class="nav-item" *ngIf="service.isLogged()">
+        <i class="nav-link">Hi {{service.getUsername()}}</i>
+      </span>
+    </ul>
+    
+   
+  </div>
+</nav>
