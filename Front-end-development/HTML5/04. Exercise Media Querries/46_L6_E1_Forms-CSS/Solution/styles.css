@@ -1,0 +1,43 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+form{
+    margin: 3%;
+    padding: 2%;
+    width: 25%;
+    border: 3px solid black;
+}
+
+label{
+    display: block;
+    margin: 5px;
+}
+
+input{
+    display: block;
+    border: none;
+    outline: none;
+    order: 2;
+    padding: 0.1rem;
+  
+    flex: 1 0 7rem;
+}
+
+
+
+i {
+    order: 1;
+    padding: 0.1rem;
+}
+
+.input {
+    display: flex;
+    position: relative;
+    width: 70%;
+}
+
+.input:after {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right:0;
+    border: 1px solid;
+    content: '';
+}

@@ -1,0 +1,17 @@
+html{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+ul  ul > li {
+    list-style-type: disc;
+}
+
+ul ul  ul > li {
+    list-style-type: circle;
+}

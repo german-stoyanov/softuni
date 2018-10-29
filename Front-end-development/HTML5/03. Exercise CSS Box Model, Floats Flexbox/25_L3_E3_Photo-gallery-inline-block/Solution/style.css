@@ -1,0 +1,26 @@
+body {
+    background: rgb(238, 238, 238 );
+    
+}
+
+li{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    height: auto;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}

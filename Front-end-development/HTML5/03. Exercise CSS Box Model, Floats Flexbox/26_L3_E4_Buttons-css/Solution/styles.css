@@ -1,0 +1,42 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+html{
+    cursor: pointer;
+    font-family: "Hervetica", sans-serif;
+    outline: none;
+}
+
+h1{
+    display: block;
+}
+
+body{
+    padding: 3%;
+}
+
+button {
+    margin: 0.3rem;
+    font-size: 15px;
+    color: rgb(12, 12, 11);
+    display: inline;
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    background-color: rgb(228,228,228);
+}
+
+.normal:hover{
+    background-color: rgb(255,255,255);
+    border-color: green;
+    color: green; 
+}
+
+.filled,.icon{
+    border: transparent;
+    color: white;
+    background-color: rgb(24, 21, 21);
+}
+
+.filled:hover,.icon:hover{
+    background-color: rgb(11, 102, 3);
+   }

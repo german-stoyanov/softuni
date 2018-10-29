@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+header{
+    width: 90%;
+}
+
+main {
+    width: 60%;
+}
+
+aside {
+    width: 30%;
+}
+
+footer {
+    width: 90%;
+}

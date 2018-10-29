@@ -1,0 +1,56 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica", sans-serif;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.card{
+    width: 28%;
+    display: block;
+}
+
+.viewport {
+    display: block;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    position: relative;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img{
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 8px 8px 50px 0px rgba(224,150,224,1);
+}
+
+i {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, #185A9D, #2D929F,#42CCA2);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #A83278, #BC5945,#BC5945);
+}

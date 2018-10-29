@@ -1,0 +1,6 @@
+MQ Width: 
+MQ Height:
+MQ Aspect Ratio: 
+Viewport width is larger than 600px
+Viewport height is larger than 600px
+Aspect Ratio is larger than 8/5

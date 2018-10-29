@@ -1,0 +1,25 @@
+html{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Cormorant", serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+ul  ul > li {
+    list-style-type: disc;
+}
+
+ul ul  ul > li {
+    list-style-type: circle;
+}
