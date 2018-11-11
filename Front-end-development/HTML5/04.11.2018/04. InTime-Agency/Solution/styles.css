@@ -1,0 +1,234 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+header span:nth-of-type(2){
+    color: rgb(33, 162, 181);
+}
+.logo span{
+    font-size: 1.3rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(84, 83, 80);
+    margin-left: 10px;
+    padding-bottom: 5px; 
+}
+.special{
+    margin-left: none;
+    border-bottom: 3px solid rgb(52, 177, 196);
+}
+#started{
+    background-image: url("../images/slide2.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 11%;
+    padding-left: 14%;
+}
+#started div{
+    padding: 0.7rem;
+    width: 22%;
+    color: white;
+    
+    background-color: rgba(0,0,0,0.4)
+}
+#started button{
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: rgb(0, 140, 186);
+    border-radius: 1.6rem;
+    color: white;
+}
+h2{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 11rem;
+}
+#welcome{
+    text-align: center;
+}
+.line{
+    height: 3px;
+    width: 8%;
+    background-color: rgb(52, 177, 196);
+}
+#welcome button{
+    padding: 0.8rem 2rem;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 1.6rem;
+    margin-top: 1rem;
+    
+}
+
+#services{
+    padding: 1rem 0 1.8rem 0;
+    background: rgb(238, 240, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black{
+    background: rgb(69, 69, 69);
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper div{
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-right: 3rem;
+}
+
+.wrapper div:last-of-type{
+    margin-right: 0;
+}
+
+.wrapper span{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.wrapper img{
+    width: 100%;
+}
+
+.wrapper div p{
+    text-align: center;
+}
+
+.wrapper button{
+    padding:  0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(69, 69, 69);
+    margin-bottom: 1.5rem;
+}
+
+#news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(57, 63, 67);
+    color: white;
+}
+
+.white{
+    background: white;
+    margin-bottom: 0.6rem;
+}
+
+#news h2{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+#news div:last-of-type{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#news input{
+    outline: none;
+    width: 65%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(84, 90, 94);
+    padding: 0.6rem 0.6rem;
+    color: rgb(115, 115, 115);
+}
+
+#news button{
+    background-color: rgb(107, 191, 255);
+    border: none;
+    border-radius: 5px;
+    padding:  0.45rem 1rem;
+    width: 25%;
+    color: white;
+    font-size: 1rem;
+}
+
+::-webkit-input-placeholder{
+    
+    color: rgb(115, 115, 115);
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 53, 57);
+    justify-content: flex-start;
+    padding: 3rem 7rem 3rem 9rem;
+}
+
+#info div{
+    width: 23%;
+}
+
+#info div span{
+    display: block;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#info div:nth-child(3){
+    margin-right: 8rem;
+}
+
+i{
+    color: white;
+    margin-right: 5px;
+
+}
+i:first-of-type{
+    margin-left: 5px;
+}
+
+i:last-of-type{
+    margin-right: 0;
+}
+
+.big{
+    font-size: 1.1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(38, 43, 47);
+    color: white;
+    padding: 1rem 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(4, 131, 167);
+    margin-left: 3px;
+}
